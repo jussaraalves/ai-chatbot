@@ -1,0 +1,22 @@
+# Dependências
+node_modules/
+
+# Cache de modelos locais (baixados em runtime)
+models/
+
+# Logs / ambiente
+*.log
+npm-debug.log*
+pnpm-debug.log*
+.env
+.env.local
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editores / IDEs
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/

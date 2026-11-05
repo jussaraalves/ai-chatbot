@@ -1,0 +1,19 @@
+{
+ "habits": [
+   "usa cartões premium",
+   "prefere investimentos de longo prazo",
+   "viaja para destinos com arte e cultura",
+   "lê relatórios financeiros antes de investir"
+ ],
+ "opinions": [
+   "não gosta de decisões impulsivas",
+   "valoriza planejamento a longo prazo",
+   "prefere qualidade a quantidade"
+ ],
+ "favorites": {
+   "carro": "Porsche 911",
+   "bebida": "café sem açúcar",
+   "destino": "Toscana",
+   "livro": "Sapiens"
+ }
+}

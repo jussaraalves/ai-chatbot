@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#ffffff" />
+  <title>Ai Chatbot</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="container">
+    <div class="workspace">
+
+      <aside class="profile-card" aria-label="Perfil de Eduardo Montenegro">
+        <header class="profile-header">
+          <img
+            class="profile-photo"
+            src="assets/eduardo-portrait.jpg"
+            alt="Retrato ilustrativo de um homem, usado para representar Eduardo"
+          />
+
+          <div class="profile-identity">
+            <h2 class="profile-name">Eduardo Montenegro</h2>
+            <p class="profile-role">Investidor e empresário · 46 anos</p>
+            <span class="profile-badge">Perfil pessoal</span>
+          </div>
+        </header>
+
+        <section class="profile-section">
+          <h3>Sobre mim</h3>
+          <p>
+            Invisto em empresas, no mercado financeiro e em startups,
+            sempre buscando oportunidades com potencial de crescimento
+            sustentável. Sou formado em Economia e tenho MBA em Finanças.
+            Minha experiência me ensinou a avaliar cenários com cuidado,
+            equilibrar risco e retorno e tomar decisões pensando no longo prazo.
+          </p>
+        </section>
+
+        <section class="profile-section">
+          <h3>Personalidade</h3>
+          <ul>
+            <li>Confiante, estratégico e competitivo.</li>
+            <li>Direto e sofisticado, sem agressividade.</li>
+            <li>Avalio riscos, retorno e eficiência.</li>
+            <li>Tenho disciplina para seguir um plano e flexibilidade para rever decisões diante de novos dados.</li>
+            <li>Sou curioso, observador e gosto de aprender com pessoas que pensam diferente.</li>
+            <li>Confio na minha experiência, mas sei que excesso de confiança também pode custar caro.</li>
+          </ul>
+        </section>
+
+        <section class="profile-section">
+          <h3>Filosofia</h3>
+          <ul>
+            <li class="profile-quote">“O mercado recompensa quem pensa no longo prazo.”</li>
+            <li class="profile-quote">“Risco existe; a questão é saber administrá-lo.”</li>
+            <li class="profile-quote">“Dinheiro é consequência de boas decisões.”</li>
+            <li class="profile-quote">“Tempo é o ativo mais valioso; invista-o com intenção.”</li>
+            <li class="profile-quote">“Planejamento reduz surpresas, não elimina incertezas.”</li>
+            <li class="profile-quote">“Dados orientam a decisão; coragem é o que permite executá-la.”</li>
+            <li class="profile-quote">“Uma boa oportunidade precisa fazer sentido mesmo depois de calcular o risco.”</li>
+          </ul>
+        </section>
+
+        <section class="profile-section">
+          <h3>Além dos negócios</h3>
+          <p>
+            Casado com Helena, pai de Lucas e Sofia. Disciplina,
+            planejamento e decisões baseadas em dados orientam meu trabalho.
+          </p>
+        </section>
+      </aside>
+
+      <section class="chat-main" aria-label="Conversa com Eduardo">
+
+        <img
+          class="background-art"
+          src="assets/figma-background.svg"
+          alt=""
+          aria-hidden="true"
+        />
+
+        <button
+          class="icon-button"
+          id="themeToggle"
+          type="button"
+          aria-label="Ativar modo escuro"
+          title="Ativar modo escuro"
+          aria-pressed="false"
+        >
+          <svg
+            class="moon-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <path d="M20.2 15.4A8.5 8.5 0 0 1 8.6 3.8 8.5 8.5 0 1 0 20.2 15.4Z"></path>
+          </svg>
+
+          <svg
+            class="sun-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path>
+          </svg>
+        </button>
+
+        <button
+          class="icon-button"
+          id="clearBtn"
+          type="button"
+          aria-label="Limpar conversa"
+          title="Limpar conversa"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+          >
+            <path d="M8.58564 8.85449L3.63589 13.8042L8.83021 18.9985L9.99985 18.9978V18.9966H11.1714L14.9496 15.2184L8.58564 8.85449ZM9.99985 7.44027L16.3638 13.8042L19.1922 10.9758L12.8283 4.61185L9.99985 7.44027ZM13.9999 18.9966H20.9999V20.9966H11.9999L8.00229 20.9991L1.51457 14.5113C1.12405 14.1208 1.12405 13.4877 1.51457 13.0971L12.1212 2.49053C12.5117 2.1 13.1449 2.1 13.5354 2.49053L21.3136 10.2687C21.7041 10.6592 21.7041 11.2924 21.3136 11.6829L13.9999 18.9966Z"></path>
+          </svg>
+        </button>
+
+        <header class="hero">
+          <span class="brand-mark">
+            <img src="assets/figma-logo.svg" alt="" />
+          </span>
+
+          <h1>Pergunte qualquer coisa ao Eduardo</h1>
+        </header>
+
+        <section class="chat" id="chat" aria-live="polite">
+          <div class="placeholder" id="placeholder">
+            Nenhuma mensagem ainda.
+          </div>
+        </section>
+
+        <section class="suggestions" aria-label="Sugestões de perguntas">
+          <h2 class="suggestions-title">
+            Sugestões do que perguntar ao Eduardo
+          </h2>
+
+          <div class="suggestion-list">
+            <button
+              class="suggestion"
+              type="button"
+              data-prompt="Como você ficou rico?"
+            >
+              Como você ficou rico?
+            </button>
+
+            <button
+              class="suggestion"
+              type="button"
+              data-prompt="Qual foi a decisão mais arriscada que mudou sua trajetória?"
+            >
+              Qual foi a decisão mais arriscada que mudou sua trajetória?
+            </button>
+
+            <button
+              class="suggestion"
+              type="button"
+              data-prompt="Que conselho daria para quem quer construir seu primeiro negócio?"
+            >
+              Que conselho daria para quem quer construir seu primeiro negócio?
+            </button>
+          </div>
+        </section>
+
+        <div class="composer">
+          <input
+            type="text"
+            id="textInput"
+            placeholder="Pergunte sobre seus projetos"
+            autocomplete="off"
+            aria-label="Sua mensagem"
+          />
+
+          <button
+            class="icon-button record"
+            id="recordBtn"
+            type="button"
+            aria-label="Falar"
+            title="Falar"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path d="M12 14a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v5a3 3 0 0 0 3 3Zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.93V21h2v-3.07A7 7 0 0 0 19 11h-2Z"></path>
+            </svg>
+          </button>
+
+          <button
+            class="icon-button send"
+            id="sendBtn"
+            type="button"
+            aria-label="Enviar mensagem"
+            title="Enviar mensagem"
+          >
+            <img src="assets/figma-send.svg" alt="" />
+          </button>
+        </div>
+
+        <div class="status" id="status" aria-live="polite"></div>
+      </section>
+    </div>
+  </main>
+
+  <script type="module" src="app.mjs"></script>
+</body>
+</html>
